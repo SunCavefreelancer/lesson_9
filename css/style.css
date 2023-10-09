@@ -1,0 +1,139 @@
+/* =======Підключення шрифтів вручну======= */
+/*@import url("fonts.css");*/
+
+/*=======Скидання стилів=======*/
+@import url("reset.css");
+
+
+
+
+/* ==============Основні Стилі============== */
+body {	
+
+}
+
+
+/* ====================================== */
+header {
+	margin: 0 auto;
+}
+
+.open-boxs{
+	padding: 50px 0px 21px 0px;
+	display: flex;
+	justify-content: center;
+}
+.open-boxs >*:not(:last-child) {
+		padding-right: 5px;
+}
+.box-menu {
+	display: flex;
+	padding: 20px;
+}
+/* -- */
+.open-box1 {
+	padding: 20px;
+	font-size: 30px;
+	background-color: rgb(216, 150, 255);
+	color: rgb(255, 255, 255);
+	border-radius: 20px;
+}
+
+.block1:target {
+	width: 100%;
+	background-color:rgb(216, 150, 255);
+	/* тепер цей бокс cховаємо: */
+	visibility: hidden;
+}
+.block1:target {
+	visibility: visible;
+}
+
+.content { /* обращаемся сразу ко всем 3 контентам в блоках */
+	width: 450px;
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+.block1 p {
+	max-width: 450px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 130%;
+	padding: 20px 0px;
+	margin: 0 auto;
+}
+.block1 img {
+	width: 250px;
+	height: 200px;	
+	display: block;
+	margin: 0 auto;
+}
+
+/* -- */
+.open-box2 {
+	padding: 20px;
+	font-size: 30px;
+	background-color: rgb(150, 187, 255);
+	color: rgb(255, 255, 255);
+	border-radius: 20px;
+}
+
+.block2:target {
+	width: 100%;
+	background-color: rgb(150, 187, 255);
+	/* тепер цей бокс cховаємо: */
+	visibility: hidden;
+}
+.block2:target {
+	visibility: visible;
+}
+.block2 p {
+	max-width: 450px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 130%;
+	padding: 20px 0px;
+	margin: 0 auto;
+}
+.block2 img {
+	width: 300px;
+	height: 200px;	
+	display: block;
+	margin: 0 auto;
+}
+
+/* -- */
+.open-box3 {
+	padding: 20px;
+	font-size: 30px;
+	background-color: rgb(150, 234, 255);
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.block3:target {
+	width: 100%;
+	background-color: rgb(150, 234, 255);
+	/* тепер цей бокс cховаємо: */
+	visibility: hidden;
+}
+.block3:target {
+	visibility: visible;
+}
+.block3 p {
+	max-width: 450px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0px;
+	line-height: 130%;
+	margin: 0 auto;
+}
+.block3 img {
+	width: 250px;
+	height: 200px;	
+	display: block;
+	margin: 0 auto;
+}
