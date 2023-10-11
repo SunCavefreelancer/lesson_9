@@ -157,8 +157,9 @@
 	padding: 151px 350px 40px 69px;
 	border: 1px solid red;
 }
-.block-welcome-whitecollar {
-
+.block-welcome-whitecollar > *:last-child {
+	/* якщо Анжела вирішить змінити контент */
+	margin-bottom: 0;
 }
 .page-b-top {
 	margin-bottom: 48px;
@@ -203,7 +204,7 @@
 .page-b-cards {
 	margin-bottom: 48px;
 }
-.page-b-card > *not:(:last-child) {
+.page-b-card > *:not(:last-child) {
 	margin-bottom: 31px;
 }
 .page-b-card {
@@ -245,6 +246,12 @@
 	height: 65px;
 	padding: 21px 35px 22px 35px;
 	background-color: #6B77E5;
+	/* якщо Анжела вирішить змінити контент */
+	display: inline-block;	
+	margin-bottom: 20px;
+	/* якщо Анжела вирішить змінити контент */
+}
+.page-b-button a {
 	color: #FFF;
 	text-align: center;
 	font-family: 'Inter';
@@ -252,4 +259,6 @@
 	font-weight: 600;
 	line-height: normal;
 	text-transform: capitalize;
+
+
 }
