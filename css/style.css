@@ -219,7 +219,7 @@
 	height: 27px;
 	content: "";
 	display: inline-block;
-	margin-right: 19px;
+	margin-left: -29px;
 }
 .page-b-card h3 {
 	color: #37393F;
@@ -227,9 +227,7 @@
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 30px;
-    margin-left: -46px;
-    margin-right: 19px;
-    vertical-align: -6px;
+    vertical-align: top;
 	display: inline-block;
 }
 .page-b-card-title {
@@ -239,7 +237,6 @@
 	font-weight: 400;
 	line-height: 146.187%; /* 26.314px */
 	display: inline-block;
-	margin-right: 19px;
 }
 .page-b-button {
 	width: 200px;
@@ -261,4 +258,65 @@
 	text-transform: capitalize;
 
 
+}
+
+
+/* =========================================================== */
+.page-c {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.block-we-develop {
+}
+.block-we-develop-left {
+	display: inline-block;
+}
+.block-we-develop-left h2 {
+	max-width: 488px;
+	color: #000;
+	font-family: 'Cormorant Infant';
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 115%; /* 69px */
+}
+.block-we-develop-right {
+	display: inline-block;
+}
+.foto-text-img{	
+	max-width: 334px;
+    border: 1px solid #000;
+	display: inline-block;
+	vertical-align: top;
+}
+.foto-text-img img {
+		margin: 9px -10px -9px 10px;
+		width: 100%;
+}
+.embossed {
+	color: #000;
+	font-family: 'Cormorant Infant';
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 140%; /* 33.6px */
+}
+.price {
+	color: #000;
+	font-family: 'Cormorant Infant';
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 140%; /* 33.6px */
+}
+.number {
+	color: #000;
+	font-family: 'Cormorant Infant';
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 113%; /* 51.98px */
+}
+.title {
+	color: #000;
+	font-family: 'Cormorant Infant';
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 113%; /* 51.98px */
 }
