@@ -263,9 +263,9 @@
 
 /* ===================page-c--We Develop Create========================= */
 .page-c {
-	max-width: 1400px;
+	max-width: 1420px;
 	margin: 0 auto;
-	padding: 80px 0px 80px 0px;
+	padding: 80px 10px 80px 10px;
 }
 .block-we-develop {
 }
@@ -297,11 +297,15 @@
 	border: 1px solid #000;
 	padding-top: 9px;	
 	padding-left: 10px;
-	margin-right: 9px;	
-	margin-bottom: 10px; 
+	margin-top: 32px;
+	margin-bottom: 25px /* відступ вниз до text */
 }
 .foto-text-img img{	 /* foto -- img */
 	width: 100%; /* ширина для фото */
+	margin-right: -10px;		/* посунули фото від бордера */
+	margin-bottom: -9px;        /* посунули фото від бордера */
+	margin-left: 10px;		/* посунули фото від бордера */
+	margin-top: 9px;        /* посунули фото від бордера */
 }
 
 .text-foto { /* card */
