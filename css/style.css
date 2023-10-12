@@ -23,8 +23,7 @@
 	font-family: 'Poppins';
 	font-size: 30px;
 	font-weight: 600;
-	line-height: 127%;
-	/* 38.1px */
+	line-height: 127%;/* 38.1px */
 	margin-bottom: 19px;
 }
 
@@ -32,8 +31,7 @@
 	color: #7D7D7D;
 	font-family: 'Inter';
 	font-size: 18px;
-	line-height: 146.187%;
-	/* 26.314px */
+	line-height: 146.187%;/* 26.314px */
 	margin-bottom: 21px;
 }
 
@@ -42,8 +40,7 @@
 	font-family: 'Poppins';
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 127%;
-	/* 25.4px */
+	line-height: 127%;/* 25.4px */
 	margin-bottom: 12px;
 }
 
@@ -85,8 +82,7 @@
 	font-family: 'Poppins';
 	font-size: 25px;
 	font-weight: 600;
-	line-height: 127%;
-	/* 31.75px */
+	line-height: 127%;/* 31.75px */
 	margin-bottom: 15px;
 }
 
@@ -96,14 +92,12 @@
 	font-family: 'Poppins';
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 127%;
-	/* 25.4px */
+	line-height: 127%;/* 25.4px */
 	margin-bottom: 21px;
 }
 
 .page-a-right-mark p::before {
 	content: "";
-	display: block;
 	background: url(img-2/marker01.png);
 	background-repeat: no-repeat;
 	width: 29px;
@@ -131,8 +125,7 @@
 	font-family: 'Poppins';
 	font-size: 30px;
 	font-weight: 600;
-	line-height: 127%;
-	/* 38.1px */
+	line-height: 127%;/* 38.1px */
 	margin-bottom: 4px;
 }
 
@@ -140,22 +133,18 @@
 	color: #7D7D7D;
 	font-family: 'Inter';
 	font-size: 18px;
-	line-height: 146.187%;
-	/* 26.314px */
+	line-height: 146.187%;/* 26.314px */
 	margin-bottom: 45px;
 }
 
 
 
-/* =========================page-b===welcome-whitecollar====================================== */
-.page-b {
-
-}
+/* =========================page-b==We Care About====================================== */
+/*.page-b {} */
 .page-b-conteiner {
 	max-width: 1094px;
 	margin: 0 auto;
 	padding: 151px 350px 40px 69px;
-	border: 1px solid red;
 }
 .block-welcome-whitecollar > *:last-child {
 	/* якщо Анжела вирішить змінити контент */
@@ -200,44 +189,58 @@
 	line-height: 146.187%; /* 26.314px */
 }
 
-/* ---cards--- */
+
+/* -------cards-------- */
+
 .page-b-cards {
-	margin-bottom: 48px;
-}
-.page-b-card > *:not(:last-child) {
-	margin-bottom: 31px;
+	margin: 48px 0;
+} 
+/*  .page-b-card > *:not(:last-child) {}
+
+}  */
+.-page-b-card-uno {
+		margin-bottom: 31px;
 }
 .page-b-card {
 	padding: 28px 41px 28px 84px;	
-	border: 1px solid #E3E3E3;
+	max-width: 675px;
+	border: 1px solid #E3E3E3;		
 }
-.page-b-card::before {
-	background: url(img-2/marker01.png);
-	background-repeat: no-repeat;
-	background-position: top left;
-	width: 27px;
-	height: 27px;
+
+.page-b-card-box {
+	margin-top: -34px;
+	padding-left: 41px;
+}
+.page-b-card-content::before {
+	width: 29px;
+	height: 30px;
 	content: "";
 	display: inline-block;
-	margin-left: -29px;
+	background: url(img-2/marker01.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
-.page-b-card h3 {
+.content-title {
 	color: #37393F;
 	font-family: 'Poppins';
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 30px;
-    vertical-align: top;
-	display: inline-block;
+	line-height: normal;
+	margin-bottom: 12px;
 }
-.page-b-card-title {
+
+.content-sub-title {
 	color: #7D7D7D;
 	font-family: 'Inter';
 	font-size: 18px;
-	font-weight: 400;
-	line-height: 146.187%; /* 26.314px */
-	display: inline-block;
+	line-height: 146.187%;
 }
+
+
+
+
+
+/* ---button--- */
 .page-b-button {
 	width: 200px;
 	height: 65px;
@@ -267,8 +270,7 @@
 	margin: 0 auto;
 	padding: 80px 10px 80px 10px;
 }
-.block-we-develop {
-}
+
 .block-we-develop-left {
 	display: inline-block;
 }
@@ -289,15 +291,15 @@
 	display: inline-block;
 	font-size: 0;
 	vertical-align: top;
+	margin-top: 32px;  /* посунули згори до низу саму картку */
 	margin-right: 45px; /* відступ між img */
 	max-width: 334px; /* ширина для картки */
-
 }
+
 .foto-text-img {	 /* foto */
 	border: 1px solid #000;
 	padding-top: 9px;	
 	padding-left: 10px;
-	margin-top: 32px;
 	margin-bottom: 25px /* відступ вниз до text */
 }
 .foto-text-img img{	 /* foto -- img */
@@ -310,8 +312,8 @@
 
 .text-foto { /* card */
 	display: inline-block;
-
 }
+
 .embossed {
 	color: #000;
 	font-family: 'Cormorant Infant';
@@ -341,4 +343,108 @@
 	font-weight: 700;
 	line-height: 113%; /* 51.98px */
 	margin-bottom: 40px;
+}
+
+
+
+
+
+/* ==========================page-d===How We Work======================== */
+.page-d {
+}
+.page-d-conteiner {
+	padding: 150px 350px 80px 350px;
+	margin: 0 auto;
+	max-width: 1220px;
+}
+.page-d-top span {
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	margin-right: 6px;
+	display: inline-block;
+}
+.page-d-top h5{
+	color: #37393F;
+	font-family: 'Inter';
+	font-size: 18px;
+	font-weight: 500;
+	line-height: normal;
+	text-align: center;
+	margin-bottom: 16px;
+}
+.page-d-top h2{
+	color: #37393F;
+	text-align: center;
+	font-family: 'Poppins';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 121%;
+	margin-bottom: 41px;
+}
+
+/* ---cards--- */
+.page-d-cards {
+	display: inline-block;
+	font-size: 0;
+}
+.page-d-card > *:last-child {
+	margin-bottom: 0;
+}
+.page-d-card > *:not(:last-child) {
+	margin-left: 31px;
+}
+
+.page-d-card::before {
+	background-image: url(img-2/Icon01.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 72px;
+	height: 72px;
+	content: "";
+	display: inline-block;
+	margin-bottom: 22px;
+	margin-top: -150px;
+}
+.page-d-card-body {
+	display: inline-block;	
+	max-width: 386px;
+}
+.page-d-card {
+	display: inline-block;
+	padding: 58px 43px;
+
+	text-align: center;
+	background-color: #F4F4F4;
+	border: 1px solid saddlebrown;
+}
+.page-d-card-icon {
+
+}
+.page-d-card-title {
+	color: #37393F;
+	text-align: center;
+	font-family: 'Poppins';
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 127%;
+	margin-bottom: 16px;
+}
+.page-d-card-sub-title {
+	color: #7D7D7D;
+	text-align: center;
+	font-family: 'Inter';
+	font-size: 18px;
+	line-height: 146.187%;
+	margin-bottom: 37px;
+}
+.page-d-card-test {
+	color: #6B77E5;
+	text-align: center;
+	font-family: 'Inter';
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+	margin-bottom: 16px;
 }
