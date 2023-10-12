@@ -261,10 +261,11 @@
 }
 
 
-/* =========================================================== */
+/* ===================page-c--We Develop Create========================= */
 .page-c {
 	max-width: 1400px;
 	margin: 0 auto;
+	padding: 80px 0px 80px 0px;
 }
 .block-we-develop {
 }
@@ -279,18 +280,33 @@
 	font-weight: 700;
 	line-height: 115%; /* 69px */
 }
-.block-we-develop-right {
+
+.block-we-develop-right { /* block-right */
 	display: inline-block;
+	vertical-align: middle;
 }
-.foto-text-img{	
-	max-width: 334px;
-    border: 1px solid #000;
+.foto-text { /* card */
 	display: inline-block;
+	font-size: 0;
 	vertical-align: top;
+	margin-right: 45px; /* відступ між img */
+	max-width: 334px; /* ширина для картки */
+
 }
-.foto-text-img img {
-		margin: 9px -10px -9px 10px;
-		width: 100%;
+.foto-text-img {	 /* foto */
+	border: 1px solid #000;
+	padding-top: 9px;	
+	padding-left: 10px;
+	margin-right: 9px;	
+	margin-bottom: 10px; 
+}
+.foto-text-img img{	 /* foto -- img */
+	width: 100%; /* ширина для фото */
+}
+
+.text-foto { /* card */
+	display: inline-block;
+
 }
 .embossed {
 	color: #000;
@@ -314,9 +330,11 @@
 	line-height: 113%; /* 51.98px */
 }
 .title {
+	width: 339px;
 	color: #000;
 	font-family: 'Cormorant Infant';
 	font-size: 46px;
 	font-weight: 700;
 	line-height: 113%; /* 51.98px */
+	margin-bottom: 40px;
 }
