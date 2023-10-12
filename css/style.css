@@ -395,8 +395,30 @@
 	margin-left: 31px;
 }
 
-.page-d-card::before {
+.-card-icon-1::before {
 	background-image: url(img-2/Icon01.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 72px;
+	height: 72px;
+	content: "";
+	display: inline-block;
+	margin-bottom: 22px;
+	margin-top: -150px;
+}
+.-card-icon-2::before {
+	background-image: url(img-2/Icon02.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 72px;
+	height: 72px;
+	content: "";
+	display: inline-block;
+	margin-bottom: 22px;
+	margin-top: -150px;
+}
+.-card-icon-3::before {
+	background-image: url(img-2/Icon03.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	width: 72px;
