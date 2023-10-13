@@ -178,6 +178,10 @@
 	line-height: 121%; /* 48.4px */
 	margin-bottom: 10px;
 }
+.page-b-top h1:hover {
+	cursor: pointer;
+	color: #40DDB6;
+}
 .page-b-text >*:not(:last-child) {
 	margin-bottom: 16px;
 }
@@ -259,10 +263,11 @@
 	font-weight: 600;
 	line-height: normal;
 	text-transform: capitalize;
-
-
 }
-
+.page-b-button:hover {
+	background-color: #40DDB6;
+	cursor: pointer;
+}
 
 /* ===================page-c--We Develop Create========================= */
 .page-c {
@@ -350,10 +355,12 @@
 
 
 /* ==========================page-d===How We Work======================== */
-.page-d {
+.page-d {	
+	padding: 50px 0px;
+
 }
 .page-d-conteiner {
-	padding: 150px 350px 80px 350px;
+
 	margin: 0 auto;
 	max-width: 1220px;
 }
@@ -387,14 +394,18 @@
 .page-d-cards {
 	display: inline-block;
 	font-size: 0;
+	margin-top: 41px;
 }
-.page-d-card > *:last-child {
+.page-d-card:not(:last-child){ 
 	margin-bottom: 0;
+	margin-right: 31px;
 }
-.page-d-card > *:not(:last-child) {
-	margin-left: 31px;
+.-card-icon-1:hover::before {
+	opacity: 0.5;
 }
-
+.-card-icon-1:active::before {
+	opacity: 1;
+}
 .-card-icon-1::before {
 	background-image: url(img-2/Icon01.png);
 	background-position: center center;
@@ -428,20 +439,21 @@
 	margin-bottom: 22px;
 	margin-top: -150px;
 }
-.page-d-card-body {
-	display: inline-block;	
-	max-width: 386px;
-}
+
 .page-d-card {
 	display: inline-block;
 	padding: 58px 43px;
-
+	max-width: 386px;
 	text-align: center;
 	background-color: #F4F4F4;
-	border: 1px solid saddlebrown;
 }
-.page-d-card-icon {
-
+.page-d-card:hover {
+	background-color: transparent;
+	cursor: pointer;
+}
+.page-d-card:active {
+	background-color:#bef2e5;
+	cursor: pointer;
 }
 .page-d-card-title {
 	color: #37393F;
