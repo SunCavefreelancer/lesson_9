@@ -357,10 +357,8 @@
 /* ==========================page-d===How We Work======================== */
 .page-d {	
 	padding: 50px 0px;
-
 }
 .page-d-conteiner {
-
 	margin: 0 auto;
 	max-width: 1220px;
 }
@@ -400,13 +398,11 @@
 	margin-bottom: 0;
 	margin-right: 31px;
 }
-.-card-icon-1:hover::before {
-	opacity: 0.5;
+.card-icon-2:hover::before {
+	opacity: 0.8;
 }
-.-card-icon-1:active::before {
-	opacity: 1;
-}
-.-card-icon-1::before {
+
+.card-icon-1::before {
 	background-image: url(img-2/Icon01.png);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -417,7 +413,7 @@
 	margin-bottom: 22px;
 	margin-top: -150px;
 }
-.-card-icon-2::before {
+.card-icon-2::before {
 	background-image: url(img-2/Icon02.png);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -428,7 +424,7 @@
 	margin-bottom: 22px;
 	margin-top: -150px;
 }
-.-card-icon-3::before {
+.card-icon-3::before {
 	background-image: url(img-2/Icon03.png);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -449,11 +445,9 @@
 }
 .page-d-card:hover {
 	background-color: transparent;
-	cursor: pointer;
 }
 .page-d-card:active {
 	background-color:#bef2e5;
-	cursor: pointer;
 }
 .page-d-card-title {
 	color: #37393F;
@@ -480,5 +474,4 @@
 	font-weight: 600;
 	line-height: normal;
 	text-transform: capitalize;
-	margin-bottom: 16px;
 }
