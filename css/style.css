@@ -23,7 +23,7 @@
 	font-family: 'Poppins';
 	font-size: 30px;
 	font-weight: 600;
-	line-height: 127%;/* 38.1px */
+	line-height: 127%;
 	margin-bottom: 19px;
 }
 
@@ -31,7 +31,7 @@
 	color: #7D7D7D;
 	font-family: 'Inter';
 	font-size: 18px;
-	line-height: 146.187%;/* 26.314px */
+	line-height: 146.187%;
 	margin-bottom: 21px;
 }
 
@@ -40,7 +40,7 @@
 	font-family: 'Poppins';
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 127%;/* 25.4px */
+	line-height: 127%;
 	margin-bottom: 12px;
 }
 
@@ -49,7 +49,6 @@
 	font-family: 'Inter';
 	font-size: 18px;
 	line-height: 146.187%;
-	/* 26.314px */
 	margin-bottom: 40px;
 }
 
@@ -82,7 +81,7 @@
 	font-family: 'Poppins';
 	font-size: 25px;
 	font-weight: 600;
-	line-height: 127%;/* 31.75px */
+	line-height: 127%;
 	margin-bottom: 15px;
 }
 
@@ -92,13 +91,13 @@
 	font-family: 'Poppins';
 	font-size: 20px;
 	font-weight: 600;
-	line-height: 127%;/* 25.4px */
+	line-height: 127%;
 	margin-bottom: 21px;
 }
 
 .page-a-right-mark p::before {
 	content: "";
-	background: url(img-2/marker01.png);
+	background: url(../img/marker01.png);
 	background-repeat: no-repeat;
 	width: 29px;
 	height: 28px;
@@ -125,7 +124,8 @@
 	font-family: 'Poppins';
 	font-size: 30px;
 	font-weight: 600;
-	line-height: 127%;/* 38.1px */
+	line-height: 127%;
+	/* 38.1px */
 	margin-bottom: 4px;
 }
 
@@ -133,7 +133,8 @@
 	color: #7D7D7D;
 	font-family: 'Inter';
 	font-size: 18px;
-	line-height: 146.187%;/* 26.314px */
+	line-height: 146.187%;
+	/* 26.314px */
 	margin-bottom: 45px;
 }
 
@@ -146,21 +147,25 @@
 	margin: 0 auto;
 	padding: 151px 350px 40px 69px;
 }
+
 .block-welcome-whitecollar > *:last-child {
 	/* якщо Анжела вирішить змінити контент */
 	margin-bottom: 0;
 }
+
 .page-b-top {
 	margin-bottom: 48px;
 }
+
 .page-b-top h5::before {
 	width: 12px;
 	height: 12px;
 	background-color: #40DDB6;
 	content: "";
-	display: inline-block;	
+	display: inline-block;
 	margin-right: 6px;
 }
+
 .page-b-top h5 {
 	color: #37393F;
 	font-family: 'Inter';
@@ -169,28 +174,33 @@
 	line-height: normal;
 	margin-bottom: 16px;
 }
+
 .page-b-top h1 {
 	max-width: 414px;
 	color: #37393F;
 	font-family: 'Poppins';
 	font-size: 40px;
 	font-weight: 700;
-	line-height: 121%; /* 48.4px */
+	line-height: 121%;
+	/* 48.4px */
 	margin-bottom: 10px;
 }
+
 .page-b-top h1:hover {
 	cursor: pointer;
 	color: #40DDB6;
 }
-.page-b-text >*:not(:last-child) {
+
+.page-b-text>*:not(:last-child) {
 	margin-bottom: 16px;
 }
+
 .page-b-text {
 	color: #7D7D7D;
 	font-family: 'Inter';
 	font-size: 18px;
 	font-weight: 400;
-	line-height: 146.187%; /* 26.314px */
+	line-height: 146.187%;
 }
 
 
@@ -198,32 +208,36 @@
 
 .page-b-cards {
 	margin: 48px 0;
-} 
+}
+
 /*  .page-b-card > *:not(:last-child) {}
 
 }  */
 .-page-b-card-uno {
-		margin-bottom: 31px;
+	margin-bottom: 31px;
 }
+
 .page-b-card {
-	padding: 28px 41px 28px 84px;	
+	padding: 28px 41px 28px 84px;
 	max-width: 675px;
-	border: 1px solid #E3E3E3;		
+	border: 1px solid #E3E3E3;
 }
 
 .page-b-card-box {
 	margin-top: -34px;
 	padding-left: 41px;
 }
+
 .page-b-card-content::before {
 	width: 29px;
 	height: 30px;
 	content: "";
 	display: inline-block;
-	background: url(img-2/marker01.png);
+	background: url(../img/marker01.png); /* тепер підключення по іншому з img */
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
+
 .content-title {
 	color: #37393F;
 	font-family: 'Poppins';
@@ -251,10 +265,11 @@
 	padding: 21px 35px 22px 35px;
 	background-color: #6B77E5;
 	/* якщо Анжела вирішить змінити контент */
-	display: inline-block;	
+	display: inline-block;
 	margin-bottom: 20px;
 	/* якщо Анжела вирішить змінити контент */
 }
+
 .page-b-button a {
 	color: #FFF;
 	text-align: center;
@@ -264,6 +279,7 @@
 	line-height: normal;
 	text-transform: capitalize;
 }
+
 .page-b-button:hover {
 	background-color: #40DDB6;
 	cursor: pointer;
@@ -279,43 +295,61 @@
 .block-we-develop-left {
 	display: inline-block;
 }
+
 .block-we-develop-left h2 {
 	max-width: 488px;
 	color: #000;
 	font-family: 'Cormorant Infant';
 	font-size: 60px;
 	font-weight: 700;
-	line-height: 115%; /* 69px */
+	line-height: 115%;
+	/* 69px */
 }
 
-.block-we-develop-right { /* block-right */
+.block-we-develop-right {
+	/* block-right */
 	display: inline-block;
 	vertical-align: middle;
 }
-.foto-text { /* card */
+
+.foto-text {
+	/* card */
 	display: inline-block;
 	font-size: 0;
 	vertical-align: top;
-	margin-top: 32px;  /* посунули згори до низу саму картку */
-	margin-right: 45px; /* відступ між img */
-	max-width: 334px; /* ширина для картки */
+	margin-top: 32px;
+	/* посунули згори до низу саму картку */
+	margin-right: 45px;
+	/* відступ між img */
+	max-width: 334px;
+	/* ширина для картки */
 }
 
-.foto-text-img {	 /* foto */
+.foto-text-img {
+	/* foto */
 	border: 1px solid #000;
-	padding-top: 9px;	
+	padding-top: 9px;
 	padding-left: 10px;
-	margin-bottom: 25px /* відступ вниз до text */
-}
-.foto-text-img img{	 /* foto -- img */
-	width: 100%; /* ширина для фото */
-	margin-right: -10px;		/* посунули фото від бордера */
-	margin-bottom: -9px;        /* посунули фото від бордера */
-	margin-left: 10px;		/* посунули фото від бордера */
-	margin-top: 9px;        /* посунули фото від бордера */
+	margin-bottom: 25px
+		/* відступ вниз до text */
 }
 
-.text-foto { /* card */
+.foto-text-img img {
+	/* foto -- img */
+	width: 100%;
+	/* ширина для фото */
+	margin-right: -10px;
+	/* посунули фото від бордера */
+	margin-bottom: -9px;
+	/* посунули фото від бордера */
+	margin-left: 10px;
+	/* посунули фото від бордера */
+	margin-top: 9px;
+	/* посунули фото від бордера */
+}
+
+.text-foto {
+	/* card */
 	display: inline-block;
 }
 
@@ -324,29 +358,36 @@
 	font-family: 'Cormorant Infant';
 	font-size: 24px;
 	font-weight: 700;
-	line-height: 140%; /* 33.6px */
+	line-height: 140%;
+	/* 33.6px */
 }
+
 .price {
 	color: #000;
 	font-family: 'Cormorant Infant';
 	font-size: 24px;
 	font-weight: 700;
-	line-height: 140%; /* 33.6px */
+	line-height: 140%;
+	/* 33.6px */
 }
+
 .number {
 	color: #000;
 	font-family: 'Cormorant Infant';
 	font-size: 46px;
 	font-weight: 700;
-	line-height: 113%; /* 51.98px */
+	line-height: 113%;
+	/* 51.98px */
 }
+
 .title {
 	width: 339px;
 	color: #000;
 	font-family: 'Cormorant Infant';
 	font-size: 46px;
 	font-weight: 700;
-	line-height: 113%; /* 51.98px */
+	line-height: 113%;
+	/* 51.98px */
 	margin-bottom: 40px;
 }
 
@@ -355,13 +396,15 @@
 
 
 /* ==========================page-d===How We Work======================== */
-.page-d {	
+.page-d {
 	padding: 50px 0px;
 }
+
 .page-d-conteiner {
 	margin: 0 auto;
 	max-width: 1220px;
 }
+
 .page-d-top span {
 	width: 12px;
 	height: 12px;
@@ -369,7 +412,8 @@
 	margin-right: 6px;
 	display: inline-block;
 }
-.page-d-top h5{
+
+.page-d-top h5 {
 	color: #37393F;
 	font-family: 'Inter';
 	font-size: 18px;
@@ -378,7 +422,8 @@
 	text-align: center;
 	margin-bottom: 16px;
 }
-.page-d-top h2{
+
+.page-d-top h2 {
 	color: #37393F;
 	text-align: center;
 	font-family: 'Poppins';
@@ -392,47 +437,52 @@
 .page-d-cards {
 	display: inline-block;
 	font-size: 0;
-	margin-top: 41px;
+	padding: 41px 0px 0px 0px;
 }
-.page-d-card:not(:last-child){ 
-	margin-bottom: 0;
+.page-d-card > *:last-child {
+	margin-bottom: 0;  /* на випадок зміни контента місцями */
+}
+.page-d-card:not(:last-child) {
 	margin-right: 31px;
 }
+
+.card-icon-1::before {
+	background: url(../img/Icon01.png); /* тепер підключення по іншому з img */
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 72px;
+	height: 72px;
+	content: "";
+	display: inline-block;
+	margin-bottom: 25px;
+	margin-top: -150px;
+}
+
+.card-icon-2::before {
+	background: url(../img/Icon02.png); /* тепер підключення по іншому з img */
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 72px;
+	height: 72px;
+	content: "";
+	display: inline-block;
+	margin-bottom: 25px;
+	margin-top: -150px;
+}
+
 .card-icon-2:hover::before {
 	opacity: 0.8;
 }
 
-.card-icon-1::before {
-	background-image: url(img-2/Icon01.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	width: 72px;
-	height: 72px;
-	content: "";
-	display: inline-block;
-	margin-bottom: 22px;
-	margin-top: -150px;
-}
-.card-icon-2::before {
-	background-image: url(img-2/Icon02.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	width: 72px;
-	height: 72px;
-	content: "";
-	display: inline-block;
-	margin-bottom: 22px;
-	margin-top: -150px;
-}
 .card-icon-3::before {
-	background-image: url(img-2/Icon03.png);
+	background: url(../img/Icon03.png); /* тепер підключення по іншому з img */
 	background-position: center center;
 	background-repeat: no-repeat;
 	width: 72px;
 	height: 72px;
 	content: "";
 	display: inline-block;
-	margin-bottom: 22px;
+	margin-bottom: 25px;
 	margin-top: -150px;
 }
 
@@ -443,12 +493,15 @@
 	text-align: center;
 	background-color: #F4F4F4;
 }
+
 .page-d-card:hover {
 	background-color: transparent;
 }
+
 .page-d-card:active {
-	background-color:#bef2e5;
+	background-color: #bef2e5;
 }
+
 .page-d-card-title {
 	color: #37393F;
 	text-align: center;
@@ -458,6 +511,7 @@
 	line-height: 127%;
 	margin-bottom: 16px;
 }
+
 .page-d-card-sub-title {
 	color: #7D7D7D;
 	text-align: center;
@@ -466,6 +520,7 @@
 	line-height: 146.187%;
 	margin-bottom: 37px;
 }
+
 .page-d-card-test {
 	color: #6B77E5;
 	text-align: center;
@@ -474,4 +529,5 @@
 	font-weight: 600;
 	line-height: normal;
 	text-transform: capitalize;
+	margin-bottom: 16px; /* на випадок зміни контента місцями */
 }
